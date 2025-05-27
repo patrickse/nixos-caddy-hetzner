@@ -15,7 +15,8 @@ import (
 
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
-	_ "github.com/greenpau/caddy-security" // Added the caddy-security plugin
+	// _ "github.com/greenpau/caddy-security" // Added the caddy-security plugin
+	- "github.com/caddy-dns/hetzner"
 )
 
 func main() {
